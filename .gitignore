@@ -1,33 +1,61 @@
-# Gradle files
-.gradle/
-build/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
-# Local configuration file (sdk path, etc)
-local.properties
+header {
+    background-color: #48a868;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
-# Log/OS Files
-*.log
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-# Keystore files
-*.jks
-*.keystore
+section {
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+section h2 {
+    color: #48a868;
+}
 
-# Android Profiling
-*.hprof
+.btn {
+    background-color: #48a868;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #3b865d;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
